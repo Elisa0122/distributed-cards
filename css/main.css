@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  color: #000;
+  font-family: "Georgia", serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #f5f2f0;
+}
+
+h1, h2 {
+  color: #623b0c;
+  font-family: "Denk One", serif;
+}
+
+ol {
+  list-style: none;
+}
+
+li {
+  background-color: #ede3db;
+  border: solid 2px #623b0c;
+}
