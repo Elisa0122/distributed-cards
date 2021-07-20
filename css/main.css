@@ -19,12 +19,12 @@ body {
 
 h1 {
   margin: 0;
-  padding: 0 0 1em;
+  padding: 0 0 .75em;
 }
 
 h2 {
   margin: 0;
-  margin-bottom: .75em;
+  margin-bottom: .5em;
   padding: 0;
 }
 
@@ -47,7 +47,7 @@ li {
   background-color: #ede3db;
   border: solid 2px #623b0c;
   border-radius: 8px;
-  padding: 1em;
+  padding: .75em;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -68,7 +68,7 @@ a {
 img {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding-bottom: .5em;
 }
 
 p {
