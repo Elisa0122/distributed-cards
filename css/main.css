@@ -17,10 +17,26 @@ h1, h2 {
 }
 
 ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   list-style: none;
+  grid-gap: 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 li {
   background-color: #ede3db;
   border: solid 2px #623b0c;
+  border-radius: 8px;
+  padding: 1em;
+  display: grid;
+}
+
+a {
+  background-color: #623b0c;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 25em .5em .5em ;
+  border-radius: 8px;
 }
