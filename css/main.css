@@ -1,14 +1,31 @@
 html {
   box-sizing: border-box;
   color: #000;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #f5f2f0;
+  margin: 0;
+  padding: .75em;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 1em;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: .75em;
+  padding: 0;
 }
 
 h1, h2 {
@@ -26,17 +43,35 @@ ol {
 }
 
 li {
+  box-sizing: content-box;
   background-color: #ede3db;
   border: solid 2px #623b0c;
   border-radius: 8px;
   padding: 1em;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: center;
+  margin: 0;
 }
 
 a {
+  margin: 0;
   background-color: #623b0c;
   color: #fff;
   text-decoration: none;
-  padding: .5em 25em .5em .5em ;
+  padding: .75em;
   border-radius: 8px;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 1em 1em 0;
 }
